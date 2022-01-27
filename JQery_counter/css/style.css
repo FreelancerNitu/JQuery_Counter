@@ -1,0 +1,48 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Counter section */
+section#counter {
+  background: #ddd;
+  padding: 2% 3%;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.title h1 {
+  font-family: cursive;
+  color: #9b109f;
+  font-size: 48px;
+  border-bottom: 2px solid red;
+  padding: 15px;
+}
+.single-box {
+  width: 100%;
+  height: 100%;
+  background: tomato;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+.single-box span {
+  font-size: 30px;
+  font-weight: 600;
+}
+.single-box h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: cursive;
+  font-weight: 600;
+  color: #019726;
+  text-align: center;
+}

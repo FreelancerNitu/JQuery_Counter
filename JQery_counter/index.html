@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning JQuery Plugin</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Counter section starts here -->
+     <section id="counter">
+       <div class="title">
+         <h1>JQuery Counter</h1>
+       </div>
+       <div class="row">
+            <div class="col-md-4 mb-2">
+              <div class="single-box">
+                <span class="counter">800</span>
+                <h4>Project Complete</h4>
+              </div>
+            </div>
+           
+            <div class="col-md-4 mb-2">
+              <div class="single-box">
+                <span class="counter">100</span>
+                <h4>Counting</h4>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2">
+              <div class="single-box">
+                <span class="counter" >100</span>
+                <h4>Group</h4>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2">
+              <div class="single-box">
+                <span class="counter">8</span>
+                <h4>Wake UP</h4>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2">
+              <div class="single-box">
+                <span class="counter">80</span>
+                <h4>Clients</h4>
+              </div>
+            </div>
+            <div class="col-md-4 mb-2">
+              <div class="single-box">
+                <span class="counter">10</span>
+                <h4>Member</h4>
+              </div>
+            </div>
+       </div>
+     </section>
+    <!-- Counter section ends here -->
+  </div>
+
+
+
+
+<!-- jQuery -->
+ <script src="js/jquery.min.js"></script>
+ <script src="js/jquery.waypoint.min.js"></script>
+ <script src="js/jqery.counterup.min.js"></script>
+
+ <script src="js/bootstrap.bundle.min.js"></script>
+
+ <script>
+    //counter
+    $('.counter').counterUp({
+      delay:20,
+      time:2000
+    });
+ </script>
+</body>
+</html>
